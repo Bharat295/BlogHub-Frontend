@@ -4,8 +4,8 @@ import { API_NOTIFICATION_MESSAGES, SERVICE_URLS } from '../constants/config';
 import { getAccessToken, getRefreshToken, setAccessToken, getType } from '../utils/common-utils';
 
 dotenv.config();
-const API_URL = 'https://blogbackend-h3od.onrender.com';
-// const API_URL = 'http://localhost:8001';
+// const API_URL = 'https://blogbackend-h3od.onrender.com';
+const API_URL = 'http://localhost:8001';
 
 const axiosInstance = axios.create({
     baseURL: API_URL,
